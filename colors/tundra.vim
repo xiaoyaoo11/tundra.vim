@@ -1,4 +1,4 @@
-" Name: catppuccin_frappe.vim
+" Name: tundra.vim
 
 set background=dark
 hi clear
@@ -10,24 +10,24 @@ endif
 let g:colors_name='tundra'
 set t_Co=256
 
-let s:rosewater = "#F2D5CF"
+let s:rosewater = "#fecdd3"
 let s:flamingo = "#EEBEBE"
-let s:pink = "#F4B8E4"
-let s:mauve = "#CA9EE6"
-let s:red = "#E78284"
-let s:maroon = "#EA999C"
-let s:peach = "#EF9F76"
-let s:yellow = "#E5C890"
-let s:green = "#A6D189"
-let s:teal = "#81C8BE"
-let s:sky = "#99D1DB"
-let s:sapphire = "#85C1DC"
-let s:blue = "#8CAAEE"
-let s:lavender = "#BABBF1"
+let s:pink = "#a5b4fc"
+let s:mauve = "#b3a6da"
+let s:red = "#ff8e8e"
+let s:maroon = "#fca5a5"
+let s:peach = "#fbc19d"
+let s:yellow = "#e8d4b0"
+let s:green = "#b5e8b0"
+let s:teal = "#719bd3"
+let s:sky = "#bae6fd"
+let s:sapphire = "#9baaf2"
+let s:blue = "#bae6fd"
+let s:lavender = "#babbf1"
 
-let s:text = "#C6D0F5"
-let s:subtext1 = "#B5BFE2"
-let s:subtext0 = "#A5ADCE"
+let s:text = "#f3f4f6"
+let s:subtext1 = "#e5e7eb"
+let s:subtext0 = "#d1d5db"
 let s:overlay2 = "#949CBB"
 let s:overlay1 = "#838BA7"
 let s:overlay0 = "#737994"
@@ -35,9 +35,9 @@ let s:surface2 = "#626880"
 let s:surface1 = "#51576D"
 let s:surface0 = "#414559"
 
-let s:base = "#303446"
-let s:mantle = "#292C3C"
-let s:crust = "#232634"
+let s:base = "#111827"
+let s:mantle = "#1e2534"
+let s:crust = "#282f3e"
 
 function! s:hi(group, guisp, guifg, guibg, gui, cterm)
   let cmd = ""

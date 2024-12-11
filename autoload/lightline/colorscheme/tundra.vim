@@ -1,20 +1,13 @@
-" =============================================================================
-" Filename: autoload/lightline/colorscheme/catppuccin_frappe.vim
-" Author: maxjcohen
-" License: MIT License
-" Last Change: 2022/07/16
-" =============================================================================
-
-let s:mauve = [ "#CA9EE6", 183 ]
-let s:red = [ "#E78284", 211 ]
-let s:yellow = [ "#E5C890", 223 ]
-let s:teal = [ "#81C8BE", 152 ]
-let s:blue = [ "#8CAAEE", 117 ]
+let s:mauve = [ "#a5b4fc", 141 ]
+let s:red = [ "#ff8e8e", 203 ]
+let s:yellow = [ "#e8d4b0", 221 ]
+let s:teal = [ "#719bd3", 109 ]
+let s:blue = [ "#bae6fd", 153 ]
 let s:overlay0 = [ "#737994", 243 ]
 let s:surface1 = [ "#51576D", 240 ]
 let s:surface0 = [ "#414559", 236 ]
-let s:base = [ "#303446", 235 ]
-let s:mantle = [ "#292C3C", 234 ]
+let s:base = [ "#111827", 233 ]
+let s:mantle = [ "#282f3e", 235 ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:mantle, s:blue ], [ s:blue, s:base ] ]

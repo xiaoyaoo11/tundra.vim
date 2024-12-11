@@ -1,40 +1,33 @@
-" =============================================================================
-" Filename: autoload/airline/themes/catppuccin_mocha.vim
-" Author: tilmaneggers
-" License: MIT License
-" Last Change: 2023/01/19
-"
-" =============================================================================
+" Name: tundra.vim
 
-" Original theme colors
-let s:rosewater = "#F5E0DC"
-let s:flamingo = "#F2CDCD"
-let s:pink = "#F5C2E7"
-let s:mauve = "#CBA6F7"
-let s:red = "#F38BA8"
-let s:maroon = "#EBA0AC"
-let s:peach = "#FAB387"
-let s:yellow = "#F9E2AF"
-let s:green = "#A6E3A1"
-let s:teal = "#94E2D5"
-let s:sky = "#89DCEB"
-let s:sapphire = "#74C7EC"
-let s:blue = "#89B4FA"
-let s:lavender = "#B4BEFE"
-"
-let s:text = "#CDD6F4"
-let s:subtext1 = "#BAC2DE"
-let s:subtext0 = "#A6ADC8"
-let s:overlay2 = "#9399B2"
-let s:overlay1 = "#7F849C"
-let s:overlay0 = "#6C7086"
-let s:surface2 = "#585B70"
-let s:surface1 = "#45475A"
-let s:surface0 = "#313244"
-"
-let s:base = "#1E1E2E"
-let s:mantle = "#181825"
-let s:crust = "#11111B"
+let s:rosewater = "#fecdd3"
+let s:flamingo = "#EEBEBE"
+let s:pink = "#a5b4fc"
+let s:mauve = "#b3a6da"
+let s:red = "#ff8e8e"
+let s:maroon = "#fca5a5"
+let s:peach = "#fbc19d"
+let s:yellow = "#e8d4b0"
+let s:green = "#b5e8b0"
+let s:teal = "#719bd3"
+let s:sky = "#bae6fd"
+let s:sapphire = "#9baaf2"
+let s:blue = "#bae6fd"
+let s:lavender = "#babbf1"
+
+let s:text = "#f3f4f6"
+let s:subtext1 = "#e5e7eb"
+let s:subtext0 = "#d1d5db"
+let s:overlay2 = "#949CBB"
+let s:overlay1 = "#838BA7"
+let s:overlay0 = "#737994"
+let s:surface2 = "#626880"
+let s:surface1 = "#51576D"
+let s:surface0 = "#414559"
+
+let s:base = "#111827"
+let s:mantle = "#1e2534"
+let s:crust = "#282f3e"
 
 " Normal mode
 " (Dark)
